@@ -32,6 +32,7 @@ img#logo {
   width: 200px;
   display: block;
   margin: auto;
+  border: 10px solid white;
 }
 
 main {
@@ -45,14 +46,51 @@ main {
 
 main h1 {
   color: white;
-  text-align: center;
-  font-size: 14px;
+  font-size: 3rem;
   margin-bottom: 20px;
 }
 
-main .form-container {
-  padding: 4em 8em;
-  background-color: rgba(255, 255, 255, 0.7);
-  border-radius: 15px;
+main h2, main h1 {
+  text-align: center;
 }
 
+main .form-container {
+  padding: 4rem 4em;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+}
+
+main form {
+  margin-top: 25px;
+  min-width: 200px;
+  max-width: 400px;
+  width: 30vw;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+main form label {
+  display: block;
+  text-align: left !important;
+}
+
+main form input {
+  display: inline-block;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 20px;
+  font-size: 1.3rem;
+}
+
+main form input[type="submit"] {
+  background: #55A417;
+  width: 100px;
+  color: white;
+  margin: 0 !important;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: unset; 
+}
