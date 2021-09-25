@@ -29,7 +29,7 @@ body:after {
 
 img#logo {
   border-radius: 0 0 15px 15px;
-  width: 250px;
+  width: 200px;
   display: block;
   margin: auto;
 }
@@ -55,3 +55,4 @@ main .form-container {
   background-color: rgba(255, 255, 255, 0.7);
   border-radius: 15px;
 }
+
