@@ -42,3 +42,7 @@ const server = https.createServer({
 });
 
 server.listen(443);
+
+https.createServer((req, res) => {
+  res.writeHead(301, 'https://eva-kurswahl.de/');
+}).listen(80);
