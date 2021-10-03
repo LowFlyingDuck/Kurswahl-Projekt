@@ -38,3 +38,6 @@ const server = http.createServer((req, res) => {
 });
 
 server.listen(80);
+process.on('beforeExit', () => {
+  server.close();
+});
