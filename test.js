@@ -11,11 +11,15 @@
 // });
 
 const http = require('http');
+const https = require('https');
 const fs = require('fs');
 const pub = __dirname + '/public/';
 const path = require('path');
 
-const server = http.createServer((req, res) => {
+const server = https.createServer({
+  cert: fs.readFileSync('/etc/letsencrypt/live/eva-kurswahl.de/fullchain.pem'),
+  key: fs.readFileSync('/etc/letsencrypt/live/eva-kurswahl.de/privkey.pem')
+} , (req, res) => {
   req.url = path.normalize(req.url);
 
   switch(req.url) {
@@ -37,7 +41,12 @@ const server = http.createServer((req, res) => {
   }
 });
 
-server.listen(80);
-process.on('beforeExit', () => {
-  server.close();
-});
+
+server.listen(443);
+
+http.createServer((req, res) => {
+  res.writeHead(302, {
+    'Location': 'https://www.eva-kurswahl.de/'
+  });
+  res.end();
+}).listen(80);
