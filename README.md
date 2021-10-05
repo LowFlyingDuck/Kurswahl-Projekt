@@ -21,4 +21,4 @@ When adding HTTPS use */etc/letsencrypt/live/eva-kurswahl.de/fullchain.pem* and 
 
 <img width="1080" alt="Login App" src="https://user-images.githubusercontent.com/51282810/135918582-856450ac-372e-48be-b717-b22275c36579.png">
 
-<img width="1192" alt="Selection App" src="https://user-images.githubusercontent.com/51282810/135918601-a4c46a12-fb40-4ed3-928a-05e9d2103ef6.png">
+<img width="1192" alt="Frame 4 (3)" src="https://user-images.githubusercontent.com/51282810/136038370-607f5389-ca07-4b39-a7e2-186c5458fc40.png">
