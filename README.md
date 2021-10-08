@@ -6,7 +6,7 @@
 
 - [x] add URL ([EVA-Kurswahl](http://eva-kurswahl.de/))
 - [x] user database
-- [x] login logics
+- [ ] login logics
 - [ ] input verification
 
 When adding HTTPS use */etc/letsencrypt/live/eva-kurswahl.de/fullchain.pem* and */etc/letsencrypt/live/eva-kurswahl.de/privkey.pem* as the certificate.
