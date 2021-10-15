@@ -54,11 +54,11 @@ if (!isset($_SESSION['user']) && isset($_GET['login'])) {
     <h1>Wähle deinen Weg!</h1>
     <div class="form-container">
       <h2>Anmeldung <br> zur Kurwahl</h2>
-      <form action="/login" method="POST">
+      <form action="?login" method="POST">
         <label for="user">Benutzername</label>
-        <input type="text" id="user" required>
+        <input type="text" id="user" name="name" required>
         <label for="pass">Passwort</label>
-        <input type="password" id="pass" required>
+        <input type="password" id="pass" name="pswd" required>
         <input type="submit" value="Weiter">
       </form>
     </div>
