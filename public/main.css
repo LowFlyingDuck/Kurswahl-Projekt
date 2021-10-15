@@ -14,6 +14,7 @@ body {
   height: 100vh;
   display: flex;
   flex-direction: column;
+  --primary: #55A417;
 }
 
 body:after {
@@ -86,7 +87,7 @@ main form input {
 }
 
 main form input[type="submit"] {
-  background: #55A417;
+  background: var(--primary);
   width: 100px;
   color: white;
   margin: 0 !important;
