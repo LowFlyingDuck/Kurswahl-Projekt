@@ -17,8 +17,8 @@ const pub = __dirname + '/public/';
 const path = require('path');
 
 const server = https.createServer({
-  cert: fs.readFileSync('/etc/letsencrypt/live/eva-kurswahl.de/fullchain.pem'),
-  key: fs.readFileSync('/etc/letsencrypt/live/eva-kurswahl.de/privkey.pem')
+  cert: fs.readFileSync(__dirname  + '/fullchain.pem'),
+  key: fs.readFileSync(__dirname + '/privkey.pem')
 } , (req, res) => {
   req.url = path.normalize(req.url);
 
