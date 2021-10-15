@@ -28,7 +28,7 @@ if (!isset($_SESSION['user']) && isset($_GET['login'])) {
     if ($user !== false && password_verify($pswd, $user['password']) && !$error) {
         $_SESSION['user']['id'] = $user['id'];
     }
-} elseif (isset($_SESSION['user']) isset($_GET['logout'])) {
+} elseif (isset($_SESSION['user']) && isset($_GET['logout'])) {
     // remove all session variables
     session_unset();
 
