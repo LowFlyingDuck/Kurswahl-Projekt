@@ -1,10 +1,18 @@
 import './App.css'
+import LK from './components/lk.js'
+
+
 
 function App() {
   return (
     <div className="app">
-      <h1>Selection coming soon...</h1>
-      <p>Hold tight, while we are developing this app.</p>
+      <div className="top">
+        <LK />
+        <LK />
+      </div>
+      <div className="bottom">
+
+      </div>
     </div>
   );
 }
