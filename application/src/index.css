@@ -15,8 +15,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   /* background-color: #EEEEEE; */
-  background: url('./images/bg.svg');
-  background-size: 100% 100%;
+  background: url('./images/bg.svg') center center no-repeat;
+  background-size: cover;
   height: 100vh;
 }
 
