@@ -7,8 +7,8 @@ function App() {
   return (
     <div className="app">
       <div className="top">
-        <LK />
-        <LK />
+        <LK lkType='LK1'/>
+        <LK lkType='LK2'/>
       </div>
       <div className="bottom">
 

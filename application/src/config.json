@@ -1,4 +1,14 @@
 {
+  "gridCSS": {
+    "LK1": {
+      "gridTemplateColumns": "1fr 1fr",
+      "gridTemplateRows": "1fr"
+    },
+    "LK2": {
+      "gridTemplateColumns": "1fr 1fr 1fr 1fr 1fr",
+      "gridTemplateRows": "1fr 1fr"
+    }
+  },
   "LK1": [
     {
       "n": "Mathematik",

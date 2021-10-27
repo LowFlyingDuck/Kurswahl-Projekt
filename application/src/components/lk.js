@@ -1,11 +1,11 @@
 import './lk.css'
 import SP from './selectPanel.jsx'
 
-function LK({ header='LK' }) {
+function LK({ lkType='LK1' }) {
   return (
     <div>
-      <h1>{header}</h1>
-      <SP />
+      <h1>{lkType}</h1>
+      <SP lkType={lkType}/>
     </div>
   )
 }

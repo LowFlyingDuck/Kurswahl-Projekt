@@ -17,7 +17,10 @@ body {
   /* background-color: #EEEEEE; */
   background: url('./images/bg.svg') center center no-repeat;
   background-size: cover;
+  width: 100vw;
   height: 100vh;
+  overflow: hidden;
+  --entry-width: 140px;
 }
 
 code {
