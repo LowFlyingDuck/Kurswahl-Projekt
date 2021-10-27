@@ -1,0 +1,8 @@
+.selectPanel__collection__entry {
+  width: var(--entry-width);
+  height: var(--entry-width);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
