@@ -12,6 +12,7 @@
 
 const http = require('http');
 const https = require('https');
+const request = require('request');
 const fs = require('fs');
 const pub = __dirname + '/public/';
 const path = require('path');
@@ -25,6 +26,9 @@ const server = https.createServer({
   switch(req.url) {
     case '/login':
       console.log(req)
+      break;
+    case '/console':
+      request('http://localhost:3000/').pipe(res);
       break;
     default:
       // assuming it's a public file
