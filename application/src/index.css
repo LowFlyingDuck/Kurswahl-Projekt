@@ -20,7 +20,8 @@ body {
   width: 100vw;
   height: 100vh;
   overflow: hidden;
-  --entry-width: 140px;
+  --entry-width: 150px;
+  --max-entry-width: 10vw;
 }
 
 code {

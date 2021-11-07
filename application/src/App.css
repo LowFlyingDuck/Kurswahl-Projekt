@@ -9,3 +9,9 @@
   display: flex;
   gap: 10px;
 }
+
+h1 {
+  font-size: 4rem;
+  font-weight: 900;
+  text-align: center;
+}
