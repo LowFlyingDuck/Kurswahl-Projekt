@@ -42,11 +42,11 @@ const server = https.createServer({
 });
 
 
-server.listen(3000);
+server.listen(443);
 
-// http.createServer((req, res) => {
-//   res.writeHead(302, {
-//     'Location': 'https://www.eva-kurswahl.de/'
-//   });
-//   res.end();
-// }).listen(80);
+http.createServer((req, res) => {
+  res.writeHead(302, {
+    'Location': 'https://www.eva-kurswahl.de/'
+  });
+  res.end();
+}).listen(80);

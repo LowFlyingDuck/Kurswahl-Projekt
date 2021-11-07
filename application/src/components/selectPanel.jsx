@@ -21,7 +21,6 @@ function SP({d, lkType }) {
             <Entry onclick={set} key={e.n} s={e.n === selected} {...e} />
           ))}
         </div>
-        <div className="selector"></div>
       </div>
     )
   else throw new Error('Config is missing information about ' + lkType + '!');
