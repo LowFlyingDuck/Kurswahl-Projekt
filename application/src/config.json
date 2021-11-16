@@ -1,4 +1,60 @@
 {
+  "GKs": {
+    "Antike": {
+      "s":"ant"
+    },
+    "Chemie": {
+      "s": "ch"
+    },
+    "Deutsch": {
+      "s": "de"
+    },
+    "Englisch 2": {
+      "s": "en2"
+    },
+    "Englisch 3": {
+      "s": "en3"
+    },
+    "Französisch 2": {
+      "s": "fr2"
+    },
+    "Französisch 3": {
+      "s": "fr3"
+    },
+    "Geschichte": {
+      "s": "ge"
+    },
+    "Gemeinschaftskunde": {
+      "s": "gem"
+    },
+    "Geographie": {
+      "s": "geo"
+    },
+    "Geist und Materie": {
+      "s": "gum"
+    },
+    "Informatik": {
+      "s": "inf"
+    },
+    "Kunst": {
+      "s": "ku"
+    },
+    "Mathematik": {
+      "s": "ma"
+    },
+    "Musik und Chor": {
+      "s": "muc"
+    },
+    "Physik": {
+      "s": "phy"
+    },
+    "Religion": {
+      "s": "rel"
+    },
+    "Sport": {
+      "s": "spo"
+    }
+  },
   "gridCSS": {
     "LK1": {
       "gridTemplateColumns": "1fr 1fr",

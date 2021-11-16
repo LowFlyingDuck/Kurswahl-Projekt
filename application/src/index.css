@@ -22,6 +22,7 @@ body {
   overflow: hidden;
   --entry-width: 150px;
   --max-entry-width: 10vw;
+  --border-radius: 20px;
 }
 
 code {

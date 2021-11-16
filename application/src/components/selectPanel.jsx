@@ -3,13 +3,14 @@ import c from '../config.json'
 import Entry from './selectEntry.jsx'
 import { useState } from 'react';
 
-function SP({d, lkType }) {
+function SP({d, lkType, update }) {
   const config = c;
 
   const [selected, select] = useState(localStorage.getItem(lkType) || d);
 
   function set(n) {
     localStorage.setItem(lkType, n);
+    update();
     select(n);
   }
 

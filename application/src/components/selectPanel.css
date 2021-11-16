@@ -1,12 +1,12 @@
 .selectPanel {
   background: white;
   padding: 20px;
-  border-radius: 2vw;
+  border-radius: var(--border-radius);
 }
 
 .selectPanel__collection {
   background: #eee;
   display: grid;
-  border-radius: 2vw;
+  border-radius: var(--border-radius);
   z-index: -2;
 }

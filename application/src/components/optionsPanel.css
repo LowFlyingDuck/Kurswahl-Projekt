@@ -1,0 +1,10 @@
+.options-panel {
+  background: #E0E0E0;
+  border-radius: var(--border-radius);
+  padding: 30px;
+  color: #3D3D3D;
+}
+
+.options-panel h3 {
+  margin-bottom: 20px;
+}

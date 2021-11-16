@@ -3,13 +3,12 @@
   max-width: var(--max-entry-width);
   height: var(--entry-width);
   max-height: var(--max-entry-width);
-  border-radius: 2vw;
+  border-radius: var(--border-radius);
   display: flex;
   justify-content: center;
   align-items: center;
   cursor: pointer;
   transition: 100ms;
-  font-size: 0.8vw;
   
 }
 
