@@ -7,16 +7,20 @@ import c from '../config.json'
 
 
 export default function LKSelect({ next }) {
-  const [options, setOptions] = useState([]);
+  const [options, setOptions] = useState(update(true));
 
-  function update() {
-    let lk1 = localStorage.getItem('LK1'),
-        lk2 = localStorage.getItem('LK2');
-    
-    for (let i = 0; i<c.GKs.length; i++) {
-      
-    }
-  }
+  function update(f) {
+    let lk1 = localStorage.getItem('LK1');
+    let lk2 = localStorage.getItem('LK2');
+    let arr = Object.entries(c.GKs).map(([key, value]) => {
+      key = key.split(' ')[0];
+      if (key !== lk1 && key !== lk2) {
+        return value.s;
+      } else return null;
+    });
+    !f && setOptions(arr);
+    return arr;
+  };
 
   return (
     <>

@@ -15,18 +15,16 @@ h1 {
   margin-top: 20px;
 }
 
-.bottom>* {
-  flex: 1;
-}
-
 .continue {
   display: flex;
   align-items: flex-end;
   justify-content: right;
+  flex: 1;
 }
 
 button {
-  background-color: #FF7D8D;
+  background-color: #3D3D3D;
+  color: white;
   border: none;
   padding: 20px;
   border-radius: var(--border-radius);
